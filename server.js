@@ -19,7 +19,7 @@ app.use(middleware.logger);
 // 	res.send('hello EXPRESS!');
 // });
 app.get('/about',middleware.requireAuthentication, function (req, res) {
-	res.send('we are learning!');
+	res.send('we are learning!!');
 });
 
 app.use(express.static(__dirname + '/public'));
